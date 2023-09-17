@@ -1,0 +1,29 @@
+body{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 274px) and (max-width: 600px) {
+
+  .Diagnostic {
+      transform: translateY(45%);
+      z-index: 9;
+  }
+  .Hospital {
+      transform: translateY(45%);
+      z-index: 9;
+  }
+  .footer {
+      transform: translateY(60%);
+      z-index: 9;
+  }
+  .newsletter {
+      transform: translateY(280%);
+      z-index: 9;
+  }
+
+}

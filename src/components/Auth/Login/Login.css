@@ -1,0 +1,11 @@
+.login-google svg {
+  margin-right: 50px;
+  font-size: 20px;
+  color: #f22121;
+}
+
+@media only screen and (min-width: 990px) and (max-width: 2500px) {
+  .login-section {
+    width: 50%;
+  }
+}

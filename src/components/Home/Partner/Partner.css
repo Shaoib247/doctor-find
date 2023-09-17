@@ -1,0 +1,26 @@
+.partner {
+    text-align: center;
+}
+.partner .slick-track{
+    height: 150px;
+    padding-top: 10px;
+}
+.partner h1{
+    text-align: center;
+}
+.partner img{
+    width: 150px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 274px) and (max-width: 400px) {
+
+    .partner {
+        transform: translateY(340%);
+        z-index: 9;
+    }
+
+  
+  }

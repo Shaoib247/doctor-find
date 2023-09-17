@@ -1,0 +1,206 @@
+/* Funfact Area CSS */
+.funfact-area .single-funfact-card {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  
+
+
+  .funfact-inner-box {
+    margin-top: 45px;
+  }
+  
+  .single-funfact-card {
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    background-color: var(--white-color);
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 25px;
+    position: relative;
+    padding: 30px 20px 30px 112px;
+  }
+  
+  .single-funfact-card .icon {
+    position: absolute;
+    background-color: #3FB6D6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    left: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            
+  }
+  
+  .single-funfact-card svg {
+    display: inline-block;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .single-funfact-card h3 {
+    font-size: 48px;
+    color: #000;
+    line-height: 1;
+    margin-bottom: 5px;
+  
+  }
+  
+
+ 
+  .single-funfact-card:hover {
+    background-color: #3FB6D6;
+    .icon{
+        background-color: #fff !important;
+      }
+      .odometer {
+        color: #fff !important;
+      }
+      .counter-p{
+        color: #fff !important;
+      }
+  }
+  
+  .single-funfact-card:hover svg {
+    background-color: #fff;
+    color: #3FB6D6;
+  }
+  
+  .single-funfact-card:hover h3 {
+    color: #000;
+  }
+  
+  .single-funfact-card:hover h3 .sign-icon {
+    color: var(--white-color);
+  }
+  
+  .single-funfact-card:hover p {
+    color: var(--white-color);
+  }
+  
+
+  @media only screen and (max-width: 767px) {
+   
+    /* Funfact Area CSS */
+    .funfact-inner-box {
+      margin-top: 15px;
+    }
+    .single-funfact-card {
+      padding: 20px;
+    }
+    .single-funfact-card .icon {
+      position: relative;
+      left: 0;
+      top: unset;
+      -webkit-transform: unset;
+              transform: unset;
+      margin-bottom: 20px;
+    }
+    .single-funfact-card h3 {
+      font-size: 25px;
+    }
+    .single-funfact-card h3 .sign-icon {
+      font-size: 25px;
+      left: -2px;
+    }
+    .single-funfact-card p {
+      font-size: 15px;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+    /* Funfact Area CSS */
+    .funfact-inner-box {
+      margin-top: 15px;
+    }
+    .single-funfact-card h3 {
+      font-size: 25px;
+    }
+    .single-funfact-card h3 .sign-icon {
+      font-size: 25px;
+      left: -2px;
+    }
+    .single-funfact-card p {
+      font-size: 15px;
+    }
+   
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    /* Funfact Area CSS */
+    .single-funfact-card {
+      padding: 25px 15px 25px 70px;
+    }
+    .single-funfact-card .icon {
+      left: 15px;
+    }
+    .single-funfact-card .icon i {
+      height: 50px;
+      width: 50px;
+      line-height: 55px;
+      font-size: 25px;
+    }
+    .single-funfact-card h3 {
+      font-size: 30px;
+    }
+    .single-funfact-card h3 .sign-icon {
+      font-size: 30px;
+      left: -5px;
+    }
+    .single-funfact-card p {
+      font-size: 14px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    /* Funfact Area CSS */
+    .single-funfact-card {
+      padding: 25px 15px 25px 70px;
+    }
+    .single-funfact-card .icon {
+      left: 15px;
+    }
+    .single-funfact-card .icon i {
+      height: 50px;
+      width: 50px;
+      line-height: 55px;
+      font-size: 25px;
+    }
+    .single-funfact-card h3 {
+      font-size: 30px;
+    }
+    .single-funfact-card h3 .sign-icon {
+      font-size: 30px;
+      left: -5px;
+    }
+    .single-funfact-card p {
+      font-size: 14px;
+    }
+
+  }
+
+  @media only screen and (min-width: 274px) and (max-width: 500px) {
+
+    .funfact-inner-box {
+        transform: translateY(155%);
+        z-index: 9;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .Feautes .single-features::before {
+        display: none;
+    }
+}

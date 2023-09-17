@@ -1,0 +1,178 @@
+
+/* Features Area CSS */
+.single-features-card {
+    background-color: var(--white-color);
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 25px;
+    padding: 30px 35px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  
+  .single-features-card .icon {
+    margin-bottom: 25px;
+  }
+  
+  .single-features-card .icon i {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-size: 55px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  
+  .single-features-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .single-features-card h3 a {
+    color: var(--black-color);
+  }
+  
+  .single-features-card p {
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    margin-bottom: 0;
+  }
+  
+  .single-features-card .features-shape {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    opacity: 50%;
+  }
+  
+  .single-features-card:hover {
+    background-color: var(--main-color);
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  
+  .single-features-card:hover .icon i {
+    background-color: var(--white-color);
+    color: var(--main-color);
+  }
+  
+  .single-features-card:hover h3 a {
+    color: var(--white-color);
+  }
+  
+  .single-features-card:hover p {
+    color: var(--white-color);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 767px) {
+   
+    /*Features Area CSS*/
+    .single-features-card .icon i {
+      height: 70px;
+      width: 70px;
+      line-height: 70px;
+      font-size: 40px;
+    }
+    .single-features-card h3 {
+      font-size: 20px;
+    }
+    .features-inner-box {
+      padding-top: 50px;
+      padding-bottom: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .single-features-box .icon {
+      margin-bottom: 20px;
+    }
+    .single-features-box .icon i {
+      height: 70px;
+      width: 70px;
+      line-height: 70px;
+      font-size: 40px;
+    }
+    .single-features-box::before {
+      display: none;
+    }
+    .single-features-box h3 {
+      font-size: 18px;
+    }
+   
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+    /*Features Area CSS*/
+    .single-features-card .icon i {
+      height: 70px;
+      width: 70px;
+      line-height: 70px;
+      font-size: 40px;
+    }
+    .single-features-card h3 {
+      font-size: 20px;
+    }
+    .features-inner-box {
+      padding-top: 50px;
+      padding-bottom: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .single-features-box .icon {
+      margin-bottom: 20px;
+    }
+    .single-features-box .icon i {
+      height: 70px;
+      width: 70px;
+      line-height: 70px;
+      font-size: 40px;
+    }
+    .single-features-box::before {
+      display: none;
+    }
+    .single-features-box h3 {
+      font-size: 18px;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+   
+    /*Features Area CSS*/
+    .single-features-card {
+      padding: 28px 25px;
+    }
+    .single-features-box::before {
+      right: -2px;
+    }
+   
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 500px) {
+
+    .features-area {
+        transform: translateY(50%);
+        z-index: 9;
+    }
+
+
+}
+  

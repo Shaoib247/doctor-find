@@ -1,0 +1,250 @@
+.slider .single-slider {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider .single-slider .text {
+    margin-top: 120px;
+}
+.slider.index2 .single-slider .text {
+    margin-top: 150px;
+}
+.slider .single-slider h1 {
+    color: #2c2d3f;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 42px;
+}
+.slider .single-slider h1 span {
+    color: #1a76d1;
+}
+.slider .single-slider p {
+    color: #2c2d3f;
+    margin-top: 27px;
+    font-weight: 400;
+}
+.slider .single-slider .button {
+    margin-top: 30px;
+}
+.slider .single-slider .btn {
+    color: #fff;
+    background: #1a76d1;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+}
+.slider .single-slider .btn:last-child {
+    margin: 0;
+}
+.slider .single-slider .btn.primary {
+    background: #2c2d3f;
+    color: #fff;
+}
+.slider .single-slider .btn.primary:before {
+    background: #1a76d1;
+}
+.slider .owl-carousel .owl-nav {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -25px;
+}
+.slider .owl-carousel .owl-nav div {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #1a76d1;
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    margin: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding: 0;
+    border-radius: 50%;
+}
+.slider .owl-carousel .owl-nav div:hover {
+    background: #2c2d3f;
+    color: #fff;
+}
+.slider .owl-carousel .owl-controls .owl-nav .owl-prev {
+    left: 20px;
+}
+.slider .owl-carousel .owl-controls .owl-nav .owl-next {
+    right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slider .single-slider {
+        height: 380px;
+    }
+
+    .slider .single-slider {
+        position: relative;
+    }
+    .slider .single-slider:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        opacity: 0.5;
+    }
+    .slider .single-slider h1 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+    .slider .single-slider .text {
+        margin-top: 80px;
+    }
+    .slider.index2 .single-slider .text {
+        margin-top: 80px;
+    }
+    .slider .owl-carousel .owl-nav div {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 4px;
+    }
+  
+}
+@media only screen and (max-width: 767px) {
+   
+    .slider .single-slider {
+        height: 380px;
+    }
+
+    .slider .single-slider {
+        position: relative;
+    }
+    .slider .single-slider:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        opacity: 0.5;
+    }
+    .slider .single-slider h1 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+    .slider .single-slider .text {
+        margin-top: 80px;
+    }
+    .slider.index2 .single-slider .text {
+        margin-top: 80px;
+    }
+    .slider .owl-carousel .owl-nav div {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 4px;
+    }
+   
+}
+@media only screen and (max-width: 450px) {
+    
+    .schedule {
+        background: #fff;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        padding: 50px 0;
+        border-bottom: 1px solid #eee;
+    }
+   
+    .slider .single-slider {
+        position: relative;
+    }
+    .slider .single-slider:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        opacity: 0.5;
+    }
+    .slider .single-slider h1 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    .slider .single-slider p {
+        font-size: 13px;
+    }
+    .slider .single-slider .text {
+        margin-top: 20px;
+    }
+    .slider .single-slider .button .btn {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .slider .single-slider .button .btn:last-child {
+        margin-bottom: 0;
+    }
+    .slider .owl-carousel .owl-nav {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 451px) {
+
+    .slider .single-slider {
+        height: 230px;
+    }
+
+}
+
+@media only screen and (min-width: 452px) and (max-width: 767px) {
+
+    .slider .single-slider {
+        height: 300px;
+    }
+
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+
+    .slider .single-slider {
+        height: 300px;
+    }
+
+}
